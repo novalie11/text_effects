@@ -67,7 +67,8 @@ void draw() {
 
 Circle newCircle() {
   
-  int r = int(random(0,spots.size()));
+  //int r = int(random(0,spots.size()));
+  int r = int(random(20,80));
   PVector spot = spots.get(r);
   float x = spot.x;
   float y = spot.y;
