@@ -2,7 +2,8 @@ class Circle {
   float x;
   float y;
   float r;
-
+  PShape icon1 = loadShape("icon1.svg");  
+   
   boolean growing = true;
 
   Circle(float x_, float y_) {
@@ -22,9 +23,11 @@ class Circle {
   }
 
   void show() {
+    icon1.disableStyle();
     stroke(255);
-    strokeWeight(2);
-    noFill();
-    ellipse(x, y, r*2, r*2);
+    strokeWeight(0.5);
+   fill(255);
+    //ellipse(x, y, r*2, r*2);
+    shape(icon1, x, y, r*2, r*2);
   }
 }

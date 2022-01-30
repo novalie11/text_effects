@@ -2,6 +2,7 @@ ArrayList<Circle> circles;
 ArrayList<PVector> spots;
 PImage img;
 
+
 void setup() {
   size(997, 777);
   spots = new ArrayList<PVector>();
