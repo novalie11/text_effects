@@ -3,9 +3,9 @@ ArrayList<PVector> spots;
 PImage img;
 
 void setup() {
-  size(1000, 400);
+  size(997, 777);
   spots = new ArrayList<PVector>();
-  img = loadImage("xoxo.png");
+  img = loadImage("s.png");
   img.loadPixels();
   for (int x = 0; x < img.width; x++) {
     for (int y = 0; y < img.height; y++) {
